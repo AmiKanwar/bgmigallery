@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.heading{
+    text-align: center;
+    color: orange;
+}
+/* .heading-text{
+    background: -webkit-linear-gradient(#fa970d, #ffffff, #00ba44);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} */
+.container-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.container-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.sub-heading{
+   text-align: center;
+    color: black;
+    margin-top: 20px;
+    background-color: rgba(255, 254, 254, 0.865);
+}
+.sub-heading:hover{
+    color: red;
+    background-color: black;
+}
+.img-container{
+    border: 2px solid white;
+    height: 250px;
+    width: 200px;
+    /* display: flex; */
+    margin: 20px 20px;
+    padding: 20px 20px 0px 20px;
+}
+.img-container:hover{
+    background-color: white;
+    border: 2px solid blue;
+}
+.img-container>p{
+    text-align: center;
+    margin-top: 8px;
+    font-size: 20px;
+    color: blue;
+    
+}
+.img-1{
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgqWyF-k5rG-YW8lHNsWz9ksBrJ3wheJBBfQ&s');
+    height: 78%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-2{
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7iWMjP9XfQ_jUjRWRlXSxdD8Dq0o68oBOhA&s');
+    height: 78%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-3{
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFhG7_aLqDkUoOdnd-LpmhlHAuF7U7ms_bRO3weMGNiQ&s');
+    height: 78%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-4{
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm2MoPxn2G_IOfO4GjoODpor_Z4D_fM31yzeXAgzm8nA&s');
+    height: 78%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-5{
+    background: url('https://i.pinimg.com/564x/86/bd/65/86bd650df196dda7a411048838fec65f.jpg');
+    height: 78%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-6{
+    background: url('https://images.rooter.gg/rooter-profile-images/incoming/prod-25972070-1634919567939.jpg');
+    height: 78%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-7{
+    background: url('https://e0.pxfuel.com/wallpapers/523/944/desktop-wallpaper-carlo-pubg-character-gaming.jpg');
+    height: 78%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-8{
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4cofNu0itzEpCJ_OxTrxeMmuQK39F_zCyGc9Qzjb1YQ&s');
+    height: 78%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-9{
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPyQpLOIA-I3PpYPzj8fAz_82PkwurNuvgTYNVNPuTkg&s');
+    height: 78%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-10{
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbNsBexLHxX9KlEt6R--iv3nXOSXNp8xLtGMqrPBc6TA&s');
+    height: 78%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-11{
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQjSuBENTn-Oxn3jm9L1qe0GZ3-eenrT-Bm187WeCNAg&s');
+    height: 78%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-12{
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDr9s5Oc61BLBJCjv83TqIfC-qcJCGOddyG0iLz0q1XA&s');
+    height: 78%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
